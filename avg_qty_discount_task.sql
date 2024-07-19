@@ -18,6 +18,8 @@ select getprofit('OFF-BI-10000756')
 
 select * from sales
 
+-----avg_qty_discount_task
+	
 create or replace function getcustomerpurchasedetails (customerId varchar)
 RETURNS double precision as $$
 DECLARE
